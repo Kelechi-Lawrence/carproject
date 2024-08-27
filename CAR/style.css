@@ -1,0 +1,354 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+}
+.main-header {
+  color: white;
+  text-align: center;
+  height: 110px;
+  background: #262626;
+  width: 100%;
+  background-position: top;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.logo {
+  width: 150px;
+  margin-top: 8px;
+  margin-left: 50px;
+  display: flex;
+  float: left;
+  line-height: 100px;
+}
+.main-header ul {
+  float: right;
+  margin-right: 30px;
+}
+
+nav ul li {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #ffffff;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 5px;
+  line-height: 70px;
+}
+
+#cart {
+  padding: 0px;
+  padding-left: 1000px;
+}
+li {
+  color: #ffffff;
+}
+a {
+  color: #ffffff;
+}
+nav ul li :hover {
+  color: blue;
+}
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+section {
+  background: url("banner.jpg");
+  width: 100%;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+}
+.banner-area h1 {
+  margin-top: 150px;
+  color: #ffff;
+  padding: 0px 100px;
+  font-size: 40px;
+  text-align: right;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.banner-area h1 span {
+  color: blue;
+}
+.banner-area h2 {
+  color: #ffff;
+  padding: 0px 100px;
+  text-align: right;
+  font-size: 40px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#contain {
+  margin: 0px 100px;
+}
+.banner-area p {
+  color: #ffffff;
+  text-align: right;
+  margin: 0px 20px;
+  padding: 0px 100px;
+}
+#right {
+  text-align: left;
+}
+h2 {
+  color: #232323;
+  text-align: left;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.hero-btn {
+  display: inline-block;
+  text-decoration: none;
+  text-align: right;
+  color: #ffffff;
+  border: 1px solid#ffffff;
+  border-radius: 10px;
+  padding: 12px 34px;
+  margin-left: 935px;
+  font-size: 14px;
+  position: relative;
+  cursor: pointer;
+  background: crimson;
+  cursor: pointer;
+}
+
+.continue {
+  background: white;
+
+  background-blend-mode: multiply;
+  background-size: cover;
+
+  height: 300px;
+  background-position: center;
+  background-size: 100%;
+}
+.continue h1 {
+  color: black;
+  text-align: center;
+  text-transform: capitalize;
+}
+.continue p {
+  color: black;
+  text-align: center;
+}
+
+.container {
+  margin-top: 10%;
+  background: #262626;
+  box-sizing: border-box;
+}
+.container h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  margin-bottom: 60px;
+  text-align: center;
+}
+.container-1 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.continue h1 {
+  padding: 20px 0;
+}
+.cart {
+  display: flex;
+}
+.products {
+  flex: 0.75;
+}
+.product {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border: 1px solid silver;
+}
+.product:hover {
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0, 0.2);
+  transform: scale(1.01);
+}
+.product img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+.product img:hover {
+  transform: scale(1.04);
+}
+.product-info {
+  padding: 20px;
+  width: 100%;
+}
+.product-name {
+  margin-bottom: 20px;
+}
+.product-remove {
+  position: ;
+  width: 130px;
+  margin-left: 500px;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 25px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.product-remove:hover {
+  background-color: white;
+  color: green;
+  font-weight: 600;
+  border: 1px solid green;
+}
+.product-duration input {
+  width: 40px;
+  padding: 5px;
+  text-align: center;
+}
+#white {
+  color: #ffff;
+  font-size: 52px;
+}
+button {
+  width: 180px;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 12px 0;
+  margin: 500px;
+  background-color: #00f;
+  border: 0px;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.team {
+  display: flex;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.team-member {
+  background: #ffffff;
+  margin: 5px;
+  margin-bottom: 60px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  position: relative;
+}
+.team-member h3 {
+  color: #262626;
+  font-size: 26px;
+  margin-top: 50px;
+}
+.team-member p.role {
+  color: #ccc;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 12px;
+}
+.team-member p {
+  color: #232323;
+  padding: 10px 10px;
+  text-align: center;
+}
+.team-member .team-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ffffff;
+}
+.team-member .team-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.footer-container {
+  background-color: rgb(4, 85, 110);
+  padding-bottom: 2rcm 0 4rm 0;
+}
+.footer {
+  width: 80%;
+  height: 48vh;
+  background-color: rgb(4, 85, 110);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rm;
+  padding: 15px;
+}
+.footer-heading h2 {
+  color: #ffffff;
+  text-decoration: none;
+  margin: bottom 0.5rcm;
+}
+.footer h3 {
+  font-size: 32px;
+}
+.footer-heading a:hover {
+  color: blue;
+  transition: 0.3s ease-out;
+}
+.footer-email-form h2 {
+  color: #ffffff;
+  margin-bottom: 2rcm;
+}
+#footer-email {
+  width: 250px;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding-left: 00.5rcm;
+  font-size: 1rcm;
+  margin-bottom: 1rcm;
+}
+#footer-email::placeholder {
+  color: #b1b1b1;
+}
+#footer-email-btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: blue;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-size: 1rcm;
+}
+#footer-email-btn:hover {
+  cursor: pointer;
+  background-color: red;
+  transition: all 0.4s ease-out;
+}

@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car.html</title>
+    <style>
+         * {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+
+}
+  
+body {
+   
+  background-image: url("listing_img5.jpg");
+    background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  width: 1150px;
+  margin: 0 auto;
+}
+.main-header {
+  border-style: double;
+  color: white;
+  text-align: center;
+  height: 100px;
+  background: #262626;
+  width: 100%;
+  background-position: top;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+
+.logo {
+  width: 150px;
+  margin-top: 4px;
+  margin-left: 30px;
+  display: flex;
+  float: left;
+  line-height: 100px;
+}
+.border {
+  float: right;
+}
+nav ul li {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #ffffff;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 4px;
+}
+li {
+  color: #ffffff;
+}
+a {
+  color: #ffffff;
+}
+nav ul li :hover {
+  color: blue;
+}
+#cart {
+  padding-left: 400px;
+  padding-top: 10px;
+}
+
+.banner-area {
+  height: 400px;
+  width: 100%;
+}
+.banner-area h1 {
+  margin-top: 150px;
+  color: #ffff;
+  padding: 0px 100px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container1 {
+    background-size: cover;
+
+height: 300px; 
+background-position: center;
+background-size: 100%;
+}
+.continue1  {
+   
+  background: white;
+  height: 700px;
+  background-blend-mode: multiply;
+}
+.continue1 h1{
+    color: black;
+    text-align: left;
+}
+
+.continue1 {
+  background: white;
+
+  background-blend-mode: multiply;
+  background-size: cover;
+
+  height: 300px;
+  background-position: center;
+  background-size: 100%;
+}
+.continue1 h1 {
+  color: black;
+  text-align: center;
+  text-transform: capitalize;
+}
+.continue1 p {
+  color: black;
+  text-align: center;
+}
+
+.container {
+  margin-top: 10%;
+  background: #262626;
+  box-sizing: border-box;
+}
+.container h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  margin-bottom: 60px;
+  text-align: center;
+}
+.container-1 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.continue h1 {
+  padding: 20px 0;
+}
+.cart {
+  display: flex;
+}
+.products {
+  flex: 0.75;
+}
+.product {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border: 1px solid silver;
+}
+.product:hover {
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0, 0.2);
+  transform: scale(1.01);
+}
+.product img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+.product img:hover {
+  transform: scale(1.04);
+}
+.product-info {
+  padding: 20px;
+  width: 100%;
+}
+.product-name {
+  margin-bottom: 20px;
+}
+.product-remove {
+  position: ;
+  width: 130px;
+  margin-left: 500px;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 25px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.product-remove:hover {
+  background-color: white;
+  color: green;
+  font-weight: 600;
+  border: 1px solid green;
+}
+.product-duration input {
+  width: 40px;
+  padding: 5px;
+  text-align: center;
+}
+
+
+
+.footer-container {
+  background-color: black;
+  padding-bottom: 2rcm 0 4rm 0;
+}
+.footer {
+  width: 80%;
+  height: 48vh;
+  background-color: black;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rm;
+  padding: 15px;
+}
+.footer-heading h2 {
+  color: #ffffff;
+  text-decoration: none;
+  margin: bottom 0.5rcm;
+}
+.footer h3 {
+  font-size: 32px;
+}
+.footer-heading a:hover {
+  color: blue;
+  transition: 0.3s ease-out;
+}
+.footer-email-form h2 {
+  color: #ffffff;
+  margin-bottom: 2rcm;
+}
+#footer-email {
+  width: 250px;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding-left: 00.5rcm;
+  font-size: 1rcm;
+  margin-bottom: 1rcm;
+}
+#footer-email::placeholder {
+  color: #b1b1b1;
+}
+#footer-email-btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: blue;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-size: 1rcm;
+}
+#footer-email-btn:hover {
+  cursor: pointer;
+  background-color: red;
+  transition: all 0.4s ease-out;
+}
+
+
+    </style>
+     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    
+    <header class="main-header">
+        <div class="logo">
+          <label for="">        
+            <img src="about_us.png"class ="logo" alt="">
+           </label>
+        </div>
+        <div class="wrapper">
+          <nav class="border">
+            <ul>  
+                <li><a href="home.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+                <li><a href="aboutUs.html"><i class="fa fa-users" aria-hidden="true"></i>About Us</a></li>
+                <li><a href="cars.html"><i class="fa fa-car"></i>Cars</a></li>
+                <li><a href="contactUs.html"><i class="fa fa-phone" aria-hidden="true"></i>Contact</a></li>
+                <i class="fa fa-user" aria-hidden="true"></i>
+            </ul>
+            <a href="cart.html"> <i  id = "cart"class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+        
+          </nav>
+        </div>
+      </header>
+      <div class="banner-area">
+        <h1>CARS</h1>
+   
+<div class="container1">
+    <div class="continue1">
+      <h1>We offer the best</h1> 
+      
+      <div class="container-1">
+        <div class="cart">
+          <div class="products">
+            <div class="product">
+              <img src="N ariyaSV.jpg" alt="" srcset="">
+              <div class="product-info">
+                
+               <h3 class="product-name">Lexus</h3>
+               <h2 class="product-price">$250</h2>
+               <h2 class="product-offer"> 50%</h2>
+               <p class="product-duration">Days:<input value="1" name=""></p> 
+             <p class="product-remove">
+              <i class="fa fa-plus-circle" aria-hidden="true"></i>
+
+               <span class="remove">Rent</span>
+             </p> 
+             </div>
+            </div>
+          </div>
+        </div>
+        <div>
+         <div class="container-1">
+           <div class="cart">
+             <div class="products">
+               <div class="product">
+                 <img src="C covette.png" alt="" srcset="">
+                 <div class="product-info">
+                   
+                  <h3 class="product-name">Cars</h3>
+                  <h2 class="product-price">$100</h2>
+                  <h2 class="product-offer"> 50%</h2>
+                  <p class="product-duration">Days: <input value="1" name=""></p> 
+                <p class="product-remove">
+                  <i class="fa fa-plus-circle" aria-hidden="true"></i>
+
+                  <span class="remove">Rent</span> 
+                </p> 
+                </div>
+               </div>
+             </div>
+           </div>
+        </div>
+      </div>
+      </div>
+      <div class="container-1">
+        <div class="cart">
+          <div class="products">
+            <div class="product">
+              <img src="support_faq_bg.jpg" alt="" srcset="">
+              <div class="product-info">
+                
+               <h3 class="product-name">JEEP</h3>
+               <h2 class="product-price">$500</h2>
+               <h2 class="product-offer"> 50%</h2>
+               <p class="product-duration">Days:<input value="1" name=""></p> 
+             <p class="product-remove">
+              <i class="fa fa-plus-circle" aria-hidden="true"></i>
+
+               <span class="remove">Rent</span>
+             </p> 
+             </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-1">
+          <div class="cart">
+            <div class="products">
+              <div class="product">
+                <img src="tesla.jpg" alt="" srcset="">
+                <div class="product-info">
+                  
+                 <h3 class="product-name">TESLA</h3>
+                 <h2 class="product-price">$1000</h2>
+                 <h2 class="product-offer"> 50%</h2>
+                 <p class="product-duration">Days:<input value="1" name=""></p> 
+               <p class="product-remove">
+                <i class="fa fa-plus-circle" aria-hidden="true"></i>
+  
+                 <span class="remove">Rent</span>
+               </p> 
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-1">
+            <div class="cart">
+              <div class="products">
+                <div class="product">
+                  <img src="login-image.jpg" alt="" srcset="">
+                  <div class="product-info">
+                    
+                   <h3 class="product-name">RANGE ROVER</h3>
+                   <h2 class="product-price">$400</h2>
+                   <h2 class="product-offer"> 50%</h2>
+                   <p class="product-duration">Days:<input value="1" name=""></p> 
+                 <p class="product-remove">
+                  <i class="fa fa-plus-circle" aria-hidden="true"></i>
+    
+                   <span class="remove">Rent</span>
+                 </p> 
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="container-1">
+              <div class="cart">
+                <div class="products">
+                  <div class="product">
+                    <img src="img_01.jpg" alt="" srcset="">
+                    <div class="product-info">
+                      
+                     <h3 class="product-name">Lexus</h3>
+                     <h2 class="product-price">$100</h2>
+                     <h2 class="product-offer"> 50%</h2>
+                     <p class="product-duration">Days:<input value="1" name=""></p> 
+                   <p class="product-remove">
+                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+      
+                     <span class="remove">Rent</span>
+                   </p> 
+                   </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container-1">
+                <div class="cart">
+                  <div class="products">
+                    <div class="product">
+                      <img src="img_02.jpg" alt="" srcset="">
+                      <div class="product-info">
+                        
+                       <h3 class="product-name">Lexus</h3>
+                       <h2 class="product-price">$100</h2>
+                       <h2 class="product-offer"> 50%</h2>
+                       <p class="product-duration">Days:<input value="1" name=""></p> 
+                     <p class="product-remove">
+                      <i class="fa fa-plus-circle" aria-hidden="true"></i>
+        
+                       <span class="remove">Rent</span>
+                     </p> 
+                     </div>
+                    </div>
+                  </div>
+                </div>
+             
+      
+     <div class="footer-container">
+      <div class="footer">
+        <div class="footer-heading footer-1">
+     <h3>About us</h3>
+         <a href="#">Home</a>
+         <a href="cars.html">Cars</a>
+         <a href="services.html">Services</a>
+         <a href="#">Customers</a>
+         <a href="#">Terms of Services</a>
+        </div>
+        <div class="footer-heading footer-1">
+         <h3>Contact us</h3>
+             <a href="#">Support</a>
+             <a href="#">Investors</a>
+             <a href="#">sponsorship</a>
+             <a href="#">Jobs</a>
+            </div>
+            <div class="footer-heading footer-1">
+             <h3>Social media</h3>
+             <a href="https://web.istagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+             <a href="https://www.facebook.com/Kelechi.Okoromike.24"><i class="fa fa-facebook" aria-hidden="true"></i>
+             </a>
+             <a href="https://web.twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i>
+             </a>
+             <a href="08108966687"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+             <a href="Lawrenceike@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+          
+                </div>
+                <div class="footer-email-form">
+                  <h3>Join our news letter</h3>
+                  <input type="email" id="footer-email" placeholder="Enter your email address">
+                  <input type="submit" value="Sign Up"
+                  id="footer-email-btn">
+                </div>
+   </div>
+  </div>
+      </div>
+      
+</body>
+</html>

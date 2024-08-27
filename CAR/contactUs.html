@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact.html</title>
+    <link rel="stylesheet" href="">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <style>
+      * {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+  
+body {
+   
+  background-image: url("about_us_2.png");
+    background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  width: 1150px;
+  margin: 0 auto;
+}
+.main-header {
+  border-style: double;
+  color: white;
+  text-align: center;
+  height: 100px;
+  background: #262626;
+  width: 100%;
+  background-position: top;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.logo {
+  
+  width: 150px;
+  margin-top: 4px;
+  margin-left: 30px;
+  display: flex;
+  float: left;
+  line-height: 100px;
+}
+.border {
+  float: right;
+}
+nav ul li {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #ffffff;
+  display: inline;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 4px;
+}
+li {
+  color: #ffffff;
+}
+
+#cart {
+  padding-left: 400px;
+  padding-top: 10px;
+}
+
+a {
+  color: #ffffff;
+}
+nav ul li :hover {
+  color: blue;
+}
+
+.banner-area {
+  height: 400px;
+  width: 100%;
+}
+.banner-area h1 {
+  margin-top: 150px;
+  color: #ffff;
+  padding: 0px 100px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.background{
+  margin-top: 100px;
+  background: white;
+  
+  background-size: cover;
+background-position: center;
+background-size: 100%;
+  
+height: 300px; 
+
+}
+.container{
+  width: 45%;
+  padding: 10px;
+  border: 1px solid black;
+}
+.container div{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  width: 50%;
+}
+#width{
+  color: #fff;
+  width: 100px;
+  height: 50px;
+  background: turquoise;
+}
+#size{
+  width: 100px 500px;
+  height: 75px;
+}
+
+.footer-container {
+  background-color: black;
+  padding-bottom: 2rcm 0 4rm 0;
+}
+.footer {
+  width: 80%;
+  height: 48vh;
+  background-color: black;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rm;
+  padding: 15px;
+}
+.footer-heading h2 {
+  color: #ffffff;
+  text-decoration: none;
+  margin: bottom 0.5rcm;
+}
+.footer h3 {
+  font-size: 32px;
+}
+.footer-heading a:hover {
+  color: blue;
+  transition: 0.3s ease-out;
+}
+.footer-email-form h2 {
+  color: #ffffff;
+  margin-bottom: 2rcm;
+}
+#footer-email {
+  width: 250px;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding-left: 00.5rcm;
+  font-size: 1rcm;
+  margin-bottom: 1rcm;
+}
+#footer-email::placeholder {
+  color: #b1b1b1;
+}
+#footer-email-btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: blue;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-size: 1rcm;
+}
+#footer-email-btn:hover {
+  cursor: pointer;
+  background-color: red;
+  transition: all 0.4s ease-out;
+}
+
+
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+          <label for="">        
+            <img src="about_us.png"class ="logo" alt="">
+           </label>
+
+        </div>
+        <div class="wrapper">
+          <nav class="border">
+            <ul>  
+                <li><a href="home.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+                <li><a href="aboutUs.html"><i class="fa fa-users" aria-hidden="true"></i>About</a></li>
+                <li><a href="cars.html"><i class="fa fa-car"></i>Cars</a></li>
+                <li><a href="contactUs.html"><i class="fa fa-phone" aria-hidden="true"></i>Contact</a></li>
+                <li><a href="index.html"> <i class="fa fa-user" aria-hidden="true"></i></a></li> 
+            </ul>
+            <a href="cart.html"> <i  id = "cart"class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+          </nav>
+        </div>
+      </header>
+      <div class="banner-area">
+        <h1>Contact Us</h1>
+        <div class="background">
+   <div class="container">
+    <h2> Get in touch with Us</h2> 
+    <form>
+      <div>
+Full name:<input type="text" name="name" placeholder="Enter your name"><br>
+</div>
+<div>
+Email <input type="email" name="name" placeholder="your email account"><br>
+</div>
+<div>
+Message <br>
+<input type="text" name="name" id="size">
+<input type="submit" value="Send" id="width">
+
+</div>
+     </form>
+   </div>
+  </div>
+    <div class="footer-container">
+        <div class="footer">
+          <div class="footer-heading footer-1">
+       <h3>About us</h3>
+           <a href="#">Home</a>
+           <a href="cars.html">Cars</a>
+           <a href="services.html">Services</a>
+           <a href="#">Customers</a>
+           <a href="#">Terms of Services</a>
+          </div>
+          <div class="footer-heading footer-1">
+           <h3>Contact us</h3>
+               <a href="#">Support</a>
+               <a href="#">Investors</a>
+               <a href="#">sponsorship</a>
+               <a href="#">Jobs</a>
+              </div>
+              <div class="footer-heading footer-1">
+               <h3>Social media</h3>
+               <a href="https://web.istagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+               <a href="https://www.facebook.com/Kelechi.Okoromike.24"><i class="fa fa-facebook" aria-hidden="true"></i>
+               </a>
+               <a href="https://web.twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i>
+               </a>
+               <a href="08108966687"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+               <a href="Lawrenceike@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            
+                  </div>
+                  <div class="footer-email-form">
+                    <h3>Join our news letter</h3>
+                    <input type="email" id="footer-email" placeholder="Enter your email address">
+                    <input type="submit" value="Sign Up"
+                    id="footer-email-btn">
+                  </div>
+     </div>
+  
+</body>
+</html>
